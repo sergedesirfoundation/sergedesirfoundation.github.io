@@ -1560,6 +1560,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   #contact .contact-email {
     padding: 20px 0;
   }
+ .back-to-top {
+    bottom: 15px;
+  }
 
   #contact .contact-phone {
     border-left: 1px solid #ddd;
@@ -1571,11 +1574,17 @@ body.mobile-nav-active #mobile-nav-toggle {
   #testimonials .testimonial-item p {
     width: 80%;
   }
+ .back-to-top {
+    bottom: 15px;
+  }
 }
 
 @media (min-width: 1024px) {
   #header #logo {
     padding-left: 60px;
+  }
+ .back-to-top {
+    bottom: 15px;
   }
 
   #intro p {
