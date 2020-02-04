@@ -22,6 +22,35 @@ only screen and (min-device-pixel-ratio: 1.5){
 
 }
 
+@media (min-width: 768px) {
+   html,
+  body{
+    width:100%;
+    overflow-x:hidden;
+  }
+}
+ @media (min-width: 992px) {
+     html,
+  body{
+    width:100%;
+    overflow-x:hidden;
+  }
+}
+  @media (min-width: 1024px) {
+      html,
+  body{
+    width:100%;
+    overflow-x:hidden;
+  }
+}
+   @media (max-width: 768px) {
+       html,
+  body{
+    width:100%;
+    overflow-x:hidden;
+  }
+}
+
 a {
   color: #18d26e;
   transition: 0.5s;
